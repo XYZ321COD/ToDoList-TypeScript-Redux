@@ -68,6 +68,7 @@ function App() {
             {notes.map((note) => {
               return (
                 <Note
+                  key={note}
                   name={note}
                   removeNote={onRemoveNote}
                   acceptNote={onAcceptNote}
