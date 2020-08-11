@@ -1,10 +1,10 @@
 import React from "react";
 import "./css/App.css";
-import { useSelector, useDispatch, useStore } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { NotesState } from "./reducers/notesReducer";
 import { NewNoteInput } from "./components/NewNoteInput";
 import { addNote, removeNote, markNoteAsDone } from "./actions/notesActions";
-import { Note, NoteInterface } from "./components/Note";
+import { Note } from "./components/Note";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import { NavBar } from "./components/NavBar";
 

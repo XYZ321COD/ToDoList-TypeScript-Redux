@@ -1,8 +1,6 @@
 import React from "react";
 
-interface NavBarProps {}
-
-export const NavBar: React.FC<NavBarProps> = ({}) => {
+export const NavBar: React.FC = ({}) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <button

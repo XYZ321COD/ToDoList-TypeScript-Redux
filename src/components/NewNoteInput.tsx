@@ -19,7 +19,7 @@ export const NewNoteInput: React.FC<NewNoteInputProps> = ({ addNote }) => {
     <>
       <div className="row justify-content-center">
         <a
-          href="#"
+          href="/"
           type="button"
           className="action-button shadow animate red"
           data-toggle="modal"
