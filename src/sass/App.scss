@@ -1,0 +1,48 @@
+.App {
+  margin: 20px;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+
+.bordered-column {
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px
+}
+
+
+@media only screen and (max-width: 992px) {
+  .col_flexible {
+    display: none
+  }
+}
+
+.nice_text {
+  font-family: 'Pacifico', cursive;
+  font-size: 16px;
+
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.nice_text2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .nice_text2 {
+    display: none;
+  }
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

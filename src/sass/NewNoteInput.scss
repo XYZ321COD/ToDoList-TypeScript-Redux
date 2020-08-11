@@ -1,0 +1,37 @@
+$color: #FFF;
+$color_on_hover : grey;
+$background-color-button: #E74C3C;
+$border-color: #BD3E31;
+
+.animate {
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+.action-button {
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    color: $color;
+    text-decoration: none;
+}
+
+.action-button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    border-bottom: 1px solid;
+    color: $color_on_hover
+}
+
+.action-button:hover {
+    color: $color_on_hover
+}
+
+.red {
+    background-color: $background-color-button;
+    border-bottom: 5px solid $border-color;
+    text-shadow: 0px -2px $border-color
+}

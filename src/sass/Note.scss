@@ -1,0 +1,17 @@
+$border-color : #3498db;
+$background-color: #f0f7fb;
+
+.note {
+    -moz-border-radius: 6px;
+    font-family: 'Pacifico', cursive;
+    -webkit-border-radius: 6px;
+    background-color: $background-color;
+    background-position: 9px 0px;
+    background-repeat: no-repeat;
+    border: solid 1px;
+    border-color: $border-color;
+    border-radius: 6px;
+    line-height: 18px;
+    overflow: hidden;
+    margin: 1px;
+}
