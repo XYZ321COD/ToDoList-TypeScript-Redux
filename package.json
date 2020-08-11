@@ -22,7 +22,7 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "build:sass": "node-sass -r --output-style compressed src/scss -o src/css",
+    "build:sass": "node-sass -r --output-style compressed src/sass -o src/css",
     "watch:sass": "npm run build:sass && npm run build:sass -- -w",
     "start": "react-scripts start",
     "build": "react-scripts build",
