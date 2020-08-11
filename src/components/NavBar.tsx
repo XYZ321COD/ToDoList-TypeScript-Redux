@@ -17,7 +17,7 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           To-do List
         </a>
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
